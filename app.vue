@@ -5,7 +5,7 @@
 </template>
 
 <style scoped>
-.box{
+.box {
   padding: 30px;
   display: flex;
   flex-direction: column;

@@ -1,8 +1,6 @@
-FROM node:22.6
+FROM node:22-alpine
 
-RUN mkdir -p /usr/src/nuxt-app
-
-WORKDIR /usr/src/nuxt-app
+WORKDIR /NuxtToDo
 
 COPY . .
 
